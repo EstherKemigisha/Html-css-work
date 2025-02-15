@@ -4,104 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/account.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <title>KBL Dashboard</title>
-</head><br><br>
-<body class="bg-light">
-    <button type="button" class="btn btn-outline-Primary"><a href="/dashboard.html">Dashboard</a></button>
-<button type="button" class="btn btn-outline-secondary">Companies</button>
-<button type="button" class="btn btn-outline-success">Users</button>
-<button type="button" class="btn btn-outline-danger"><a href="products.html">Products</a></button>
-<button type="button" class="btn btn-outline-warning">Products details</button>
-<button type="button" class="btn btn-outline-info">Sales</button>
-<button type="button" class="btn btn-outline-light"><a href="/index.html">Logout</a></button>
-<br><br>
-    <div class="container-fluid"   id="dashboard-container">
+  </head>
+<body><br><br>
+    <h1>Login</h1><br>
+    <div class="container" id="account">
         <div class="row">
-            <div class="col-md-3">
-                
-            </div>
-            <div class="col-md-6">
-                <h1>Dashboard</h1>
-                <div class="row">
-
-                </div>
-                
-                <div class="row mt-2">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h5>Companies</h5>
-                                    
-                                </div>
-                                <div class="card-body">
-                                    <h1>5</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h5>Users</h5>
-                                    
-                                </div>
-                                <div class="card-body">
-                                    <h1>100</h1>
-                                </div>
-            </h1>
-                                </div>
-            </h1>
-                                </div>
-                                <div class="col-md-4">
-                                   <a href="/products.html"><div class="card">
-                                    <div class="card-header">
-                                        <h5>Products</h5>
-                                        
-                                    </div>
-                                    <div class="card-body">
-                                        <h1>20</h1></a> 
-                                    
-                                        </div>
-                                    </div>
-                                </div>
-            
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h5>Payments</h5>
-                                    
-                                    </div>
-                                    <div class="card-body">
-                                        <h1>5</h1>
-                                    </div>
-            
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h5>Sales</h5>
-                                    
-                                </div>
-                                <div class="card-body">
-                                    <h1>10</h1>
-            
-                        </div>
+            <div class="col-md-7" >
+                <div class="card">
+                    <div class ="card-header id=logincard">
+                        <h4 class="card-title">Account</h4>
                     </div>
-                </div>
-                
-                
-            </div>
-           
+        
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputname" class="form-label">Name:</label>
+                                <input type="name" class="form-control" id="exampleInputname1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputtelephone" class="form-label">Telephone: </label>
+                                <input type="telephone" class="form-control" id="exampleInputtelephone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInput1" class="form-label">Old password:</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" 
+                                aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">New Password:</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"> Confirm New Password:</label>
+                                <input type="password" class="form-control  id="exampleInputPassword1">
+                               
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form> 
                     </div>
                 </div>
             </div>
         </div>
+        </div>
+
+        </div>
     </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    
+
+
+
+    <footer class="bg-green dark:bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+              <div class="mb-6 md:mb-0">
+                  <a href="Index.html" class="flex items-center">
+                      <img src="/imgs/KARIBU-removebg-preview.png" class="h-20 me-14" alt="FlowBite Logo" />
+                      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">KGL</span>
+                  </a>
+              </div>
+              <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                  <div>
+                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                          <li class="mb-4">
+                              WEBSITE
+                          </li>
+                          <li>
+                              G.mail
+                          </li>
+                      </ul>
+                  </div>
+                  <div>
+                      <h2 class="mb-6 text-sm font-franklin  text-gray-900 lowercase dark:text-white">Follow us</h2>
+                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                          <li class="mb-4">
+                              Instagram
+                          </li>
+                          <li>
+                              Phone: 0788745312<br>
+                                         0754643327
+                          </li>
+                      </ul>
+                  </div>
+                  <div>
+                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                          <li class="mb-4">
+                              Privacy Policy
+                          </li>
+                          <li>
+                            Terms &amp; Conditions
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div class="sm:flex sm:items-center sm:justify-between">
               <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
               </span>
@@ -141,5 +147,9 @@
         </div>
     </footer>
     
+
+    
+    
+<script src="css/bootstrap-5.3.3/js/bootstrap.bundle.js"></script> 
 </body>
 </html>

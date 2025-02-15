@@ -10,3 +10,11 @@ body{
     opacity: 0.6px;
     object-position: left;
 }
+#dashboard-container {
+
+
+}
+.card{
+    text-align: center;
+    background-color: rgb(241, 253, 241);
+}

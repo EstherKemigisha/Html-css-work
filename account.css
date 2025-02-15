@@ -1,0 +1,17 @@
+body{
+    background-image: url(imgs/gri.jpg);
+    text-align:center;
+}
+form{
+    align-content: center;
+    align-self: center;
+
+}
+
+#account {
+    max-width: 1000px;
+    margin-bottom: 50px;
+}
+footer {
+    background-color: rgb(222, 254, 222);
+}
