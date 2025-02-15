@@ -1,0 +1,12 @@
+#logincard {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body{
+    background-image:url(imgs/gnt.jpg)  ;
+    color: rgb(17, 59, 17);
+    opacity: 0.6px;
+    object-position: left;
+}
