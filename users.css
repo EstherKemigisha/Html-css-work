@@ -19,3 +19,12 @@ tr{
     background-color: rgb(105, 179, 141);
     color: white;
 }
+footer{
+    background-color: rgb(194, 244, 229);
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

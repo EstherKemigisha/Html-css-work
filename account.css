@@ -15,3 +15,9 @@ form{
 footer {
     background-color: rgb(222, 254, 222);
 }
+card-body {
+    background-color: aquamarine;
+}
+.card {
+    background-color: rgb(233, 249, 244);
+}

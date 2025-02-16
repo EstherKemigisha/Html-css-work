@@ -18,3 +18,12 @@ body{
     text-align: center;
     background-color: rgb(241, 253, 241);
 }
+footer {
+    background-color: rgb(204, 240, 204);
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    padding-top: 30px;
+}

@@ -1,7 +1,17 @@
 body {
-    background-color: black;
+    background-color: rgb(186, 229, 186);
 }
-.row{
-    margin-left: 20px;
-    margin-right: 20px;
+ .card-text{
+    color: rgb(93, 211, 93);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+    background-color: rgb(132, 168, 132);
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bold;
 }
